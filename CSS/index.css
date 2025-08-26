@@ -1,0 +1,12 @@
+
+h1{
+    color: blue;
+}
+
+body{
+    background-image: url("../Imagenes/fondodinos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;     elementos estáticos*/  
+}
