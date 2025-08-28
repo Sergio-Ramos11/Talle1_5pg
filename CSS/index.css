@@ -1,12 +1,41 @@
 
-h1{
-    color: blue;
+h1 , h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
+    margin: 0;
     background-image: url("../Imagenes/fondodinos.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-size: cover;
     /*background-attachment: fixed;     elementos estáticos*/  
+}
+
+.let{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+.trex {
+    /*display: block;*/
+    width: 400px;
+    margin: 0 auto;
+}
+.tricer{
+    /*display: block;*/
+    width: 400px;
+    margin: 0 auto;
+}
+.krono{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+.plesio{
+    display: block;
+    width: 500px;
 }
