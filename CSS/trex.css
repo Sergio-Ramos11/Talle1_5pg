@@ -72,7 +72,6 @@ h1{
 
 .boton{
     grid-area: boton;
-    border: none;
 }
 
 img{
@@ -82,6 +81,18 @@ img{
     margin-left: auto;
     margin-right: auto;
     float: right;
+}
+
+.btn{
+    background-color: burlywood;
+    color: rgb(99, 143, 128);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn1:hover{
+    background-color: brown;
+    border-radius: 8px;
 }
 
 .img1{grid-column: 3; grid-row: 2;}
