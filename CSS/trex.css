@@ -30,7 +30,7 @@ ul{
     line-height: 0.95cm;
 }
 
-.grid-content{
+.grid-container{
     width: 98vw;
     height: 98vh;
     display: grid;
@@ -42,7 +42,7 @@ ul{
     "fosil section img1" 
 }
 
-.grid-content section{
+.grid-container section{
     grid-area: section;
     color: rgb(0, 0, 0);
     font-size: 25px;
