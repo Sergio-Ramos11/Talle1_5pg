@@ -1,9 +1,50 @@
 body{
-    background-image: url("../Imagenes/plesiosauriofosil.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.grid-content img{
+    display: grid;
+    width: 98vw;
+    height: 98vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "img1 section"
+    "texto fosil"
+    ;
+}
+
+.grid-content .img1{
+    grid-area: img1;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-content section{
+    grid-area: section;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.grid-content .texto{
+    grid-area: texto;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.grid-content .fosil{
+    grid-area: fosil;
+    width: 100%;
+    height: 100%;
 }
