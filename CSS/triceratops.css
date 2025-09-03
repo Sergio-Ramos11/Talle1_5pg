@@ -38,7 +38,7 @@ ul{
     grid-template-areas: 
     "section boton ."
     "section . ."
-    "section img1 ." 
+    "section img1 img1" 
 }
 
 .grid-container section{
@@ -107,5 +107,5 @@ section{
 
 @keyframes tricer{  
     0% {left: 0px; top: 0px;}
-    100% {left: 250px; top: 0px;}
+    100% {left: 240px; top: 0px;}
 }
